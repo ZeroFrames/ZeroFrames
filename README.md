@@ -1,8 +1,10 @@
 # ZeroFrames
 
+![ZeroFramesIcon](docs/logos/512x512.png)
+
 > ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
-🖼️ ZeroFrames: create your own designs (assets) for the Flipper Zero device
+🖼️ ![ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device
 
 [![build status](https://github.com/py-pdf/fpdf2/workflows/build/badge.svg)](https://github.com/DeepBlackHole/ZeroFrames/actions?query=branch%3Amaster)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
@@ -14,21 +16,46 @@
 Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [up for grabs issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ### Table of Contents
+
 - [](#overview)
 - [News](#news)
-- [Features](#how-to-play)
 - [Features](#features)
 - [Commands](#commands)
-- [Notification Settings](#notification-settings)
 - [Installation for Developers](#installation-for-developers)
 - [Contributing](#contributing)
 
 ## News
-❌ No news
 
-
+- Created ZeroFrames icon
+- Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Features
-* 
-*
-*
+
+- 🛠️ Custom Asset Creation – Design your own frames, icons, and UI elements for the Flipper Zero.
+
+- 📂 Multi-Format Support – Export assets in compatible formats for easy integration with Flipper firmware.
+
+- 🖌️ User-Friendly Editor – Intuitive interface for drawing and modifying designs with pixel precision.
+
+- 📡 Live Preview – See real-time updates on how your assets will look on the Flipper Zero screen.
+
+- 📁 Asset Library – Store and manage your designs in an organized collection.
+
+- 💾 Easy Export & Import – Seamlessly transfer assets to your Flipper Zero via USB or SD card.
+
+- 🎭 Community Sharing – Upload and download assets from a growing repository of user-made designs.
+
+- 🔄 Compatibility Check – Ensure your assets meet Flipper Zero’s display and performance constraints.
+
+- 🚀 Optimized for Performance – Keep your assets lightweight and efficient for smooth performance.
+
+# Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+<a href="https://github.com/DeepBlackHole/ZeroFrames/graphs/contributors">
+  <img
+    src="https://opencollective.com/ZeroFrames/contributors.svg?width=890&button=false"
+    alt="Contributors"
+  />
+</a>
