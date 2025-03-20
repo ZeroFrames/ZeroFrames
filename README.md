@@ -15,19 +15,23 @@
 
 Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [up for grabs issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
-### Table of Contents
 
-- [](#overview)
+## Table of Contents
+
+- [Overview](#overview)
 - [News](#news)
 - [Features](#features)
-- [Commands](#commands)
-- [Installation for Developers](#installation-for-developers)
 - [Contributing](#contributing)
+
+## Overview
+
+ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper Zero. You can design icons, frames, and other visuals to personalize your device. The tool lets you preview your designs in real-time, export them easily, and even share them with others.
 
 ## News
 
-- Created ZeroFrames icon
-- Contributions are welcome! Please feel free to submit a Pull Request.
+- 🖼️ Created ZeroFrames icon
+
+
 
 ## Features
 
@@ -49,7 +53,7 @@ Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFram
 
 - 🚀 Optimized for Performance – Keep your assets lightweight and efficient for smooth performance.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
