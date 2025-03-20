@@ -1,10 +1,10 @@
 # ZeroFrames
 
-![ZeroFramesIcon](docs/logos/512x512.png)
+![ZeroFramesIcon](docs/logos/192x192.png)
 
 > ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
-🖼️ ![ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device
+🖼️ [ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device
 
 [![build status](https://github.com/py-pdf/fpdf2/workflows/build/badge.svg)](https://github.com/DeepBlackHole/ZeroFrames/actions?query=branch%3Amaster)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
