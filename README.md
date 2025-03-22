@@ -6,7 +6,7 @@
 
 🖼️ [ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device.
 
-[![Build Status](https://github.com/ZeroFrames/ZeroFrames/actions/workflows/build.yml/badge.svg)](https://github.com/ZeroFrames/ZeroFrames/actions)
+[![Build Status](https://github.com/ZeroFrames/ZeroFrames/actions/workflows/django.yml/badge.svg)](https://github.com/ZeroFrames/ZeroFrames/actions)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Issues Closed](https://img.shields.io/github/issues-closed/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/issues)
 [![PRs Closed](https://img.shields.io/github/issues-pr-closed/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/pulls)
