@@ -32,7 +32,7 @@ jobs:
 
       - name: Run test
         run: |
-          cd ZeroFrames
+          cd core
           python manage.py runserver & 
           SERVER_PID=$!
           sleep 5
