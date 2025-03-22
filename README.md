@@ -8,7 +8,7 @@
 
 [![Build Status](https://github.com/ZeroFrames/ZeroFrames/actions/workflows/django.yml/badge.svg)](https://github.com/ZeroFrames/ZeroFrames/actions)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![Issues Closed](https://img.shields.io/github/issues-closed/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/issues)
+[![GitHub issues](https://img.shields.io/github/issues/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/issues)
 [![PRs Closed](https://img.shields.io/github/issues-pr-closed/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/pulls)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
