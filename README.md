@@ -15,11 +15,11 @@
 
 Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [up for grabs issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
-
 ## Table of Contents
 
 - [Overview](#overview)
 - [News](#news)
+- [Installation for Developers](#installation-for-developers)
 - [Features](#features)
 - [Contributing](#contributing)
 
@@ -30,8 +30,6 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 ## News
 
 - 🖼️ Created ZeroFrames icon
-
-
 
 ## Features
 
