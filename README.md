@@ -35,23 +35,23 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 
 ## Features
 
-- 🛠️ Custom Asset Creation – Design your own frames, icons, and UI elements for the Flipper Zero.
+- 🛠️ [Custom Asset Creation](https://github.com/ZeroFrames/ZeroFrames/issues/2) – Design your own frames, icons, and UI elements for the Flipper Zero.
 
-- 📂 Multi-Format Support – Export assets in compatible formats for easy integration with Flipper firmware.
+- 📂 [Multi-Format Support](https://github.com/ZeroFrames/ZeroFrames/issues/5) – Export assets in compatible formats for easy integration with Flipper firmware.
 
-- 🖌️ User-Friendly Editor – Intuitive interface for drawing and modifying designs with pixel precision.
+- [🖌️ User-Friendly Editor](https://github.com/ZeroFrames/ZeroFrames/issues/3) – Intuitive interface for drawing and modifying designs with pixel precision.
 
-- 📡 Live Preview – See real-time updates on how your assets will look on the Flipper Zero screen.
+- [📡 Live Preview](https://github.com/ZeroFrames/ZeroFrames/issues/6) – See real-time updates on how your assets will look on the Flipper Zero screen.
 
-- 📁 Asset Library – Store and manage your designs in an organized collection.
+- [📁 Asset Library](https://github.com/ZeroFrames/ZeroFrames/issues/7) – Store and manage your designs in an organized collection.
 
-- 💾 Easy Export & Import – Seamlessly transfer assets to your Flipper Zero via USB or SD card.
+- [💾 Easy Export & Import](https://github.com/ZeroFrames/ZeroFrames/issues/10) – Seamlessly transfer assets to your Flipper Zero via USB or SD card.
 
-- 🎭 Community Sharing – Upload and download assets from a growing repository of user-made designs.
+- [🎭 Community Sharing](https://github.com/ZeroFrames/ZeroFrames/issues/9) – Upload and download assets from a growing repository of user-made designs.
 
-- 🔄 Compatibility Check – Ensure your assets meet Flipper Zero’s display and performance constraints.
+- [🔄 Compatibility Check](https://github.com/ZeroFrames/ZeroFrames/issues/4) – Ensure your assets meet Flipper Zero’s display and performance constraints.
 
-- 🚀 Optimized for Performance – Keep your assets lightweight and efficient for smooth performance.
+- [🚀 Optimized for Performance](https://github.com/ZeroFrames/ZeroFrames/issues/8) – Keep your assets lightweight and efficient for smooth performance.
 
 ## Contributing
 
