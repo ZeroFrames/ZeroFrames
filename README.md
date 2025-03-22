@@ -31,6 +31,37 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 
 - 🖼️ Created ZeroFrames icon
 
+## Installation for Developers
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/ZeroFrames/ZeroFrames.git
+```
+
+2. Create and activate virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the ZEROFRAMES
+
+```bash
+cd core
+```
+
+```bash
+python3 manage.py runserver
+```
+
 ## Features
 
 - 🛠️ [Custom Asset Creation](https://github.com/ZeroFrames/ZeroFrames/issues/2) – Design your own frames, icons, and UI elements for the Flipper Zero.
