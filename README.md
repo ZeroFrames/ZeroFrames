@@ -1,7 +1,7 @@
 # ZeroFrames
 
 <p align="center">
-![ZeroFramesIcon](docs/logos/192x192.png)
+<img scr="docs/logos/512x512.png" height="150">
 </p>
 
 ---
