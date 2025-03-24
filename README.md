@@ -2,6 +2,8 @@
 
 ![ZeroFramesIcon](docs/logos/192x192.png)
 
+---
+
 > ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
 🖼️ [ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device.
@@ -24,6 +26,8 @@ Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFram
 - [News](#news)
 - [Features](#features)
 - [Contributing](#contributing)
+
+</details>
 
 ## Overview
 
