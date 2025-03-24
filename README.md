@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logos/512x512.png" height="150">
+  <img src="docs/logos/1024x1024.png" height="200">
 </p>
 <h1 align="center">
   ZeroFrames
