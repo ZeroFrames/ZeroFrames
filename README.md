@@ -3,6 +3,7 @@
 <p align="center">
 ![ZeroFramesIcon](docs/logos/192x192.png)
 </p>
+
 ---
 
 > ⭐️ Thanks **everyone** who has starred the project, it means a lot!
