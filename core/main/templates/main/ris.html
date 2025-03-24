@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Простое приложение для рисования</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            cursor: crosshair;
+        }
+        .tools {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tools">
+        <button id="brush">Кисть</button>
+        <button id="eraser">Ластик</button>
+        <input type="color" id="color" value="#000000">
+        <input type="range" id="size" min="1" max="50" value="5">
+        <button id="clear">Очистить</button>
+        <button id="save">Сохранить</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        let isDrawing = false;
+        let currentTool = 'brush';
+        let currentColor = '#000000';
+        let brushSize = 5;
+
+        // Настройка холста
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.strokeStyle = currentColor;
+        ctx.lineWidth = brushSize;
+        ctx.lineCap = 'round';
+
+        // Обработчики событий
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mouseout', stopDrawing);
+
+        document.getElementById('brush').addEventListener('click', () => currentTool = 'brush');
+        document.getElementById('eraser').addEventListener('click', () => currentTool = 'eraser');
+        document.getElementById('color').addEventListener('input', (e) => {
+            currentColor = e.target.value;
+            if (currentTool === 'brush') ctx.strokeStyle = currentColor;
+        });
+        document.getElementById('size').addEventListener('input', (e) => {
+            brushSize = e.target.value;
+            ctx.lineWidth = brushSize;
+        });
+        document.getElementById('clear').addEventListener('click', () => {
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+        });
+        document.getElementById('save').addEventListener('click', () => {
+            const link = document.createElement('a');
+            link.download = 'drawing.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        });
+
+        function startDrawing(e) {
+            isDrawing = true;
+            draw(e);
+        }
+
+        function draw(e) {
+            if (!isDrawing) return;
+            
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+            
+            if (currentTool === 'eraser') {
+                ctx.strokeStyle = 'white';
+            } else {
+                ctx.strokeStyle = currentColor;
+            }
+        }
+
+        function stopDrawing() {
+            isDrawing = false;
+            ctx.beginPath();
+        }
+    </script>
+</body>
+</html>
