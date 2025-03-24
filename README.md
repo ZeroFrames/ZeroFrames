@@ -1,8 +1,9 @@
-# ZeroFrames
-
 <p align="center">
-<img scr="docs/logos/512x512.png" height="150">
+  <img src="docs/logos/512x512.png" height="150">
 </p>
+<h1 align="center">
+  ZeroFrames
+</h1>
 
 ---
 
