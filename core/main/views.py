@@ -6,4 +6,5 @@ def index(request):
 def about(request):
     return render(request,'main/2.html')
     
-    
+def stepa(request):
+    return render(request,'main/3.html')     
