@@ -1,0 +1,72 @@
+{
+	"$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v10/terminal-keeper.json",
+	"theme": "tribe",
+	"active": "default",
+	"activateOnStartup": true,
+	"keepExistingTerminals": false,
+	"sessions": {
+		"default": [
+			{
+				"name": "hello",
+				"autoExecuteCommands": true,
+				"icon": "person",
+				"color": "terminal.ansiGreen",
+				"commands": ["echo hello"]
+			},
+			{
+				"name": "git sync",
+				"autoExecuteCommands": true,
+				"icon": "source-control",
+				"color": "terminal.ansiBlue",
+				"commands": ["git pull"]
+			},
+			{
+				"name": "npm install",
+				"autoExecuteCommands": true,
+				"icon": "package",
+				"color": "terminal.ansiCyan",
+				"commands": ["npm install"]
+			},
+			{
+				"name": "docker compose",
+				"autoExecuteCommands": true,
+				"icon": "docker",
+				"color": "terminal.ansiMagenta",
+				"commands": ["docker-compose up"]
+			},
+			{
+				"name": "python run",
+				"autoExecuteCommands": true,
+				"icon": "run",
+				"color": "terminal.ansiYellow",
+				"commands": ["python main.py"]
+			},
+			[
+				{
+					"name": "docker:ros",
+					"commands": []
+				},
+				{
+					"name": "docker:k8s",
+					"commands": []
+				}
+			],
+			[
+				{
+					"name": "docker:nats",
+					"commands": []
+				},
+				{
+					"name": "docker:fleet",
+					"commands": []
+				}
+			]
+		],
+		"saved-session": [
+			{
+				"name": "connect",
+				"commands": []
+			}
+		]
+	}
+}
