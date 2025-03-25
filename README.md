@@ -11,14 +11,13 @@
 
 🖼️ [ZeroFrames](https://opencollective.com/zeroframes): create your own designs (assets) for the Flipper Zero device.
 
-[![build status](https://github.com/py-pdf/fpdf2/workflows/build/badge.svg)](https://github.com/ZeroFrames/ZeroFrames/actions?query=branch%3Amaster)
+[![Build Status](https://github.com/ZeroFrames/ZeroFrames/actions/workflows/django.yml/badge.svg)](https://github.com/ZeroFrames/ZeroFrames/actions)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![issues closed](https://img.shields.io/github/issues-closed/DeepBlackHole/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/issues)
-[![PRs closed](https://img.shields.io/github/issues-pr-closed/DeepBlackHole/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/issues)
+[![PRs Closed](https://img.shields.io/github/issues-pr-closed/ZeroFrames/ZeroFrames)](https://github.com/ZeroFrames/ZeroFrames/pulls)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
+[![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 
-Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [up for grabs issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## Table of content
 
@@ -32,6 +31,18 @@ Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFram
 
 </details>
 
+
+<details>
+<summary>Expand contents</summary>
+
+- [Overview](#overview)
+- [News](#news)
+- [Installation for Developers](#installation-for-developers)
+- [Features](#features)
+- [Contributing](#contributing)
+
+</details>
+
 ## Overview
 
 ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper Zero. You can design icons, frames, and other visuals to personalize your device. The tool lets you preview your designs in real-time, export them easily, and even share them with others.
@@ -39,6 +50,39 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 ## News
 
 - 🖼️ Created ZeroFrames icon
+
+=======
+## Installation for Developers
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/ZeroFrames/ZeroFrames.git
+```
+
+2. Create and activate virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the ZEROFRAMES
+
+```bash
+cd core
+```
+
+```bash
+python3 manage.py runserver
+```
+
 
 ## Features
 
