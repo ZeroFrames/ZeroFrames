@@ -39,7 +39,7 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 
 - 🖼️ Created ZeroFrames icon
 
-=======
+
 ## Installation for Developers
 
 1. Clone repository:
