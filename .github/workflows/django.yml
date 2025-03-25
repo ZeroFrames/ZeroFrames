@@ -30,7 +30,7 @@ jobs:
           export SECRET_KEY=secret
           export DEBUG=True
 
-      - name: Run django test
+      - name: Run test
         run: |
           cd zero_frames
           cd backend
