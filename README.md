@@ -20,18 +20,6 @@
 
 
 ## Table of content
-
-<details>
-<summary>Expand contents</summary>
-
-- [Overview](#overview)
-- [News](#news)
-- [Features](#features)
-- [Contributing](#contributing)
-
-</details>
-
-
 <details>
 <summary>Expand contents</summary>
 
