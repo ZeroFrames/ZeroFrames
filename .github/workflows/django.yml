@@ -30,9 +30,10 @@ jobs:
           export SECRET_KEY=secret
           export DEBUG=True
 
-      - name: Run test
+      - name: Run django test
         run: |
-          cd core
+          cd zero_frames
+          cd backend
           python manage.py runserver & 
           SERVER_PID=$!
           sleep 5
