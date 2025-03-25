@@ -1,6 +1,11 @@
-# ZeroFrames
+<p align="center">
+  <img src="docs/logos/1024x1024.png" height="200">
+</p>
+<h1 align="center">
+  ZeroFrames
+</h1>
 
-![ZeroFramesIcon](docs/logos/192x192.png)
+---
 
 > ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
@@ -14,15 +19,29 @@
 [![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 
 
-Come check out our [good first issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [up for grabs issues](https://github.com/DeepBlackHole/ZeroFrames/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+## Table of content
 
-## Table of Contents
+<details>
+<summary>Expand contents</summary>
+
+- [Overview](#overview)
+- [News](#news)
+- [Features](#features)
+- [Contributing](#contributing)
+
+</details>
+
+
+<details>
+<summary>Expand contents</summary>
 
 - [Overview](#overview)
 - [News](#news)
 - [Installation for Developers](#installation-for-developers)
 - [Features](#features)
 - [Contributing](#contributing)
+
+</details>
 
 ## Overview
 
@@ -32,6 +51,7 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 
 - 🖼️ Created ZeroFrames icon
 
+=======
 ## Installation for Developers
 
 1. Clone repository:
@@ -63,6 +83,7 @@ cd core
 python3 manage.py runserver
 ```
 
+
 ## Features
 
 - 🛠️ [Custom Asset Creation](https://github.com/ZeroFrames/ZeroFrames/issues/2) – Design your own frames, icons, and UI elements for the Flipper Zero.
@@ -82,6 +103,71 @@ python3 manage.py runserver
 - [🔄 Compatibility Check](https://github.com/ZeroFrames/ZeroFrames/issues/4) – Ensure your assets meet Flipper Zero’s display and performance constraints.
 
 - [🚀 Optimized for Performance](https://github.com/ZeroFrames/ZeroFrames/issues/8) – Keep your assets lightweight and efficient for smooth performance.
+
+## User Flow
+
+```mermaid
+---
+config:
+  layout: fixed
+---
+graph TD
+    Start[User Visits ZeroFrames] --> Grid[Interactive Pixel Grid Editor]
+    subgraph EditorInterface["Editor Interface"]
+        Grid --> Tools[Select Drawing Tool]
+        Tools -->|Pencil| Draw[Toggle Pixels On/Off]
+        Tools -->|Eraser| Erase[Remove Pixels]
+        Tools -->|Fill| Fill[Fill Connected Area]
+        Tools -->|Line| Line[Draw Straight Line]
+        Tools -->|Rectangle| Rect[Draw Rectangle]
+        Draw --> EditGrid[Continue Editing Grid]
+        Erase --> EditGrid
+        Fill --> EditGrid
+        Line --> EditGrid
+        Rect --> EditGrid
+        EditGrid --> Preview[Preview Current Frame]
+    end
+    subgraph AnimationTimeline["Animation Features"]
+        Preview --> ManageFrames[Manage Animation Frames]
+        ManageFrames -->|Add Frame| NewFrame[Create New Frame]
+        ManageFrames -->|Delete Frame| DeleteFrame[Remove Frame]
+        ManageFrames -->|Duplicate| DuplicateFrame[Duplicate Frame]
+        ManageFrames -->|Reorder| ReorderFrames[Reorder Frames]
+        NewFrame --> EditGrid
+        DeleteFrame --> EditGrid
+        DuplicateFrame --> EditGrid
+        ReorderFrames --> EditGrid
+        ManageFrames --> PlayAnimation[Play Animation Preview]
+        PlayAnimation --> AdjustSpeed[Adjust Animation Speed]
+        AdjustSpeed --> PlayAnimation
+    end
+    subgraph FileOperations["File Operations"]
+        EditGrid --> SaveProject[Save Project]
+        PlayAnimation --> SaveProject
+        SaveProject --> Export[Export Options]
+        Export -->|.txt Format| ExportTXT[Export as .txt]
+        Export -->|.fbz Format| ExportFBZ[Export as .fbz]
+        ExportTXT --> Download[Download File]
+        ExportFBZ --> Download
+        Grid --> Import[Import Existing File]
+        Import -->|.txt Format| ImportTXT[Import .txt File]
+        Import -->|.fbz Format| ImportFBZ[Import .fbz File]
+        ImportTXT --> Grid
+        ImportFBZ --> Grid
+    end
+    subgraph SharingOptions["Sharing Options"]
+        Download --> Share[Share Creation]
+        Share -->|Generate Link| ShareLink[Create Shareable Link]
+        Share -->|Social Media| ShareSocial[Share to Social Media]
+        ShareLink --> CopyLink[Copy Link to Clipboard]
+        ShareSocial --> PostToSocial[Post to Selected Platform]
+    end
+    EditGrid -.-> SaveProject
+    PlayAnimation -.-> SaveProject
+```
+
+---
+
 
 ## Contributing
 
