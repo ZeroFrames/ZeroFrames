@@ -32,7 +32,7 @@ jobs:
 
       - name: Run test
         run: |
-          cd zero_frames
+          cd zeroframes
           cd backend
           python manage.py runserver & 
           SERVER_PID=$!
