@@ -16,7 +16,6 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![First Timers Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 
-
 ## Table of content
 
 <details>
@@ -28,7 +27,6 @@
 - [Contributing](#contributing)
 
 </details>
-
 
 <details>
 <summary>Expand contents</summary>
@@ -50,6 +48,7 @@ ZeroFrames is an easy-to-use tool for creating custom graphics for your Flipper 
 - 🖼️ Created ZeroFrames icon
 
 =======
+
 ## Installation for Developers
 
 1. Clone repository:
@@ -80,7 +79,6 @@ cd core
 ```bash
 python3 manage.py runserver
 ```
-
 
 ## Features
 
@@ -165,7 +163,6 @@ graph TD
 ```
 
 ---
-
 
 ## Contributing
 
