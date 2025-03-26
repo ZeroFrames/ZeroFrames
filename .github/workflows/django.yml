@@ -32,8 +32,8 @@ jobs:
 
       - name: Run test
         run: |
-          cd zero_frames
           cd backend
+          cd zero_frames
           python manage.py runserver & 
           SERVER_PID=$!
           sleep 5
