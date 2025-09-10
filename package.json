@@ -1,0 +1,28 @@
+{
+  "name": "zero-frames",
+  "version": "1.0.0",
+  "description": "ZeroFrames: Create Your Own Designs (Assets) For The Flipper Zero",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroFrames/ZeroFrames.git"
+  },
+  "keywords": [
+    "PixelArt",
+    "flipperzero",
+    "python",
+    "javascipt"
+  ],
+  "author": "DeepBlackHole",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ZeroFrames/ZeroFrames/issues"
+  },
+  "homepage": "https://github.com/ZeroFrames/ZeroFrames#readme"
+}
